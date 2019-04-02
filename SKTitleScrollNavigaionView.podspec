@@ -1,42 +1,15 @@
-#
-# Be sure to run `pod lib lint SKTitleScrollNavigaionView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'SKTitleScrollNavigaionView'
+  s.name             = 'SKTitleScrollNavigationView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SKTitleScrollNavigaionView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = '滚动标题导航栏，支持红点气泡，可自定义下划线长度，支持居中及左对齐等'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Scroll title navigation bar, support red dot bubble, custom underline length, support centering and left alignment, etc.
                        DESC
-
-  s.homepage         = 'https://github.com/shevakuilin/SKTitleScrollNavigaionView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/shevakuilin/SKTitleScrollNavigationView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shevakuilin' => 'shevakuilin@gmail.com' }
-  s.source           = { :git => 'https://github.com/shevakuilin/SKTitleScrollNavigaionView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/shevakuilin/SKTitleScrollNavigationView.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SKTitleScrollNavigaionView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SKTitleScrollNavigaionView' => ['SKTitleScrollNavigaionView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Source/SKTitleScrollNavigationView/*.swift'
+  s.swift_version = '4.1'
 end
