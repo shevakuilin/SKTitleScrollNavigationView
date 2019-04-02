@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SKTitleScrollNavigationView'
-  s.version          = '0.2.0'
+  s.version          = '0.1.0'
   s.summary          = '滚动标题导航栏，支持红点气泡，可自定义下划线长度，支持居中及左对齐等'
   s.description      = <<-DESC
   Scroll title navigation bar, support red dot bubble, custom underline length, support centering and left alignment, etc.
