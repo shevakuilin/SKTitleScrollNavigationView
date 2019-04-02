@@ -1,29 +1,8 @@
 # SKTitleScrollNavigaionView
 
-[![CI Status](https://img.shields.io/travis/shevakuilin/SKTitleScrollNavigaionView.svg?style=flat)](https://travis-ci.org/shevakuilin/SKTitleScrollNavigaionView)
-[![Version](https://img.shields.io/cocoapods/v/SKTitleScrollNavigaionView.svg?style=flat)](https://cocoapods.org/pods/SKTitleScrollNavigaionView)
-[![License](https://img.shields.io/cocoapods/l/SKTitleScrollNavigaionView.svg?style=flat)](https://cocoapods.org/pods/SKTitleScrollNavigaionView)
-[![Platform](https://img.shields.io/cocoapods/p/SKTitleScrollNavigaionView.svg?style=flat)](https://cocoapods.org/pods/SKTitleScrollNavigaionView)
+![](https://img.shields.io/badge/platform-iOS-green.svg)
+![](https://img.shields.io/badge/pod-v1.6.0.beta.1-blue.svg)
+![](https://img.shields.io/badge/language-Swift-purple.svg)
+![](https://img.shields.io/badge/moduleVersion-v0.1.0-red.svg)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-SKTitleScrollNavigaionView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SKTitleScrollNavigaionView'
-```
-
-## Author
-
-shevakuilin, shevakuilin@gmail.com
-
-## License
-
-SKTitleScrollNavigaionView is available under the MIT license. See the LICENSE file for more info.
+滚动标题导航栏，支持红点气泡，可自定义下划线长度，支持居中及左对齐等
